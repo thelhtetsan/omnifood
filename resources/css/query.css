@@ -1,0 +1,224 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* from 1024px to 1023px */
+
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .long-para {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .section-meals {
+    padding: 60px 0 0 0;
+  }
+  .section-steps {
+    height: 65vh;
+  }
+  .section-cities {
+    height: 55vh;
+  }
+  .section-testimonials {
+    height: 55vh;
+  }
+  .section-plan {
+    height: 57vh;
+  }
+  .section-form {
+    height: 45vh;
+  }
+}
+
+/* Small Tablet and Big tablet from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .section-meals {
+    padding: 200px 0 0 0;
+  }
+  .section-steps {
+    height: 65vh;
+  }
+  .section-cities {
+    height: 55vh;
+  }
+  .section-testimonials {
+    height: 55vh;
+  }
+  .section-plan {
+    height: 65vh;
+  }
+  .section-form {
+    height: 55vh;
+  }
+  .step-box:first-child {
+    margin-top: 10px;
+  }
+  .step-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .icon-small {
+    width: 20px;
+    margin-right: 0;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+  .plan-price {
+    font-size: 250%;
+  }
+  .content-form {
+    width: 80%;
+  }
+  .copyright-para {
+    clear: both;
+  }
+  .copyright-para p {
+    padding: 28px;
+  }
+}
+
+/* Small Phone and small tablet from 480px to 767px */
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+  .main-nav {
+    display: none;
+  }
+  .long-para {
+    width: 100%;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .works-step div {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .works-step {
+    margin-bottom: 20px;
+  }
+  .section-steps {
+    height: 115vh;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 20px;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+  .app-screen {
+    width: 40%;
+  }
+  .section-cities {
+    height: 260vh;
+  }
+  .section-testimonials {
+    height: 115vh;
+  }
+  .section-plan {
+    height: 170vh;
+  }
+  .section-form {
+    height: 90vh;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .main-nav {
+    float: left;
+    margin: 35px 0 0 25px;
+  }
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+  .main-nav li {
+    display: block;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+  }
+}
+
+/* Small Phone from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .content-form {
+    width: 100%;
+  }
+  .logo {
+    height: 75px;
+  }
+  .mobile-style {
+    display: flex;
+    margin-top: 35px;
+  }
+  .section-steps {
+    height: 105vh;
+  }
+  .section-plan {
+    height: 159vh;
+  }
+  .social-link {
+    float: unset;
+  }
+}
